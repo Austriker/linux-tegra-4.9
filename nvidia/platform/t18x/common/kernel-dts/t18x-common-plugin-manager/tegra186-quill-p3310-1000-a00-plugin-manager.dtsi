@@ -140,10 +140,10 @@
 				target = <&tegra_pcie>;
 				_overlay_ {
 					pci@1,0 {
-						nvidia,num-lanes = <2>;
+						nvidia,num-lanes = <4>;
 					};
 					pci@2,0 {
-						nvidia,num-lanes = <1>;
+						nvidia,num-lanes = <0>;
 					};
 					pci@3,0 {
 						nvidia,num-lanes = <1>;

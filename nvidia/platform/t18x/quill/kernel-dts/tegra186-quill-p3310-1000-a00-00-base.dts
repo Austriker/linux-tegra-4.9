@@ -261,11 +261,11 @@
 	pcie-controller@10003000 {
 		status = "okay";
 		pci@1,0 {
-			nvidia,num-lanes = <2>;
+			nvidia,num-lanes = <4>;
 			status = "okay";
 		};
 		pci@2,0 {
-			nvidia,num-lanes = <1>;
+			nvidia,num-lanes = <0>;
 			status = "disabled";
 		};
 		pci@3,0 {
